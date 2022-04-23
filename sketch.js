@@ -2465,7 +2465,7 @@ ctx.translate(160,160);
   //PATTERN TYPE PGG//
     if(symm==1){
  var img = new Image();
-  img.src = 'm18.png';
+  img.src = '1x1 2000 pts.png';
   img.onload = function() {
 
     // create pattern
