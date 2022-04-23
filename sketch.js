@@ -803,177 +803,8 @@ if(symm==0){
   //refresh 
   ctx.fillRect(640,640,1,1);
 }
-//    if(symm==1){
-// var img = new Image();
-//   img.src = '1x1 2000 pts.png';
-//   img.onload = function() {
-//     var ptrn = ctx.createPattern(img, 'repeat');
 
-   
-// //p4g code
-//  // create pattern
-//     ctx.fillStyle = ptrn;
-//     rt_p4g.shape();
-//     ctx.fill();
-//     // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();
-//     // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-
-//         ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-   
-//     //set 2
-//     ctx.translate(160+4*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();
-//     // rt_p4g.grid();
-    
-  
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();
-//     // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-
-//         ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//     //set 3
-//      ctx.translate(160-4*(160/2),160+0*(160/2));
-//   ctx.rotate(6*Math.PI/4);
-//     ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();   
-    
-//      ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();
-//     // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-
-//         ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//   //set 4 
-//      ctx.translate(160+4*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill(); 
-  
-//      ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();
-//     // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-
-//         ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//     ctx.translate(160+0*(160/2),160+0*(160/2));
-//   ctx.rotate(2*Math.PI/4);
-//     // ctx.scale(-1,1);
-//   ctx.translate(-160,-160);
-//   rt_p4g.shape();
-//   ctx.fill();       
-//    // rt_p4g.grid();
-    
-//   }
-//    }
-
+//PATTERN TYPE CM//
 if(symm==2){
  var img = new Image();
   img.src = '1x1 2000 pts.png';
@@ -1400,7 +1231,7 @@ if(symm==2){
   }
 
 }
-  
+  //PATTERN TYPE CMM//
   if(symm==3){
      var img = new Image();
   img.src = '1x1 2000 pts.png';
@@ -2631,10 +2462,10 @@ ctx.translate(160,160);
   }
 
   }
-  
-  if(symm==1){
+  //PATTERN TYPE PGG//
+    if(symm==1){
  var img = new Image();
-  img.src = '1x1 2000 pts.png';
+  img.src = 'm18.png';
   img.onload = function() {
 
     // create pattern
@@ -2643,7 +2474,7 @@ ctx.translate(160,160);
     itri_pgg.shape();
     ctx.fill();
     
-    
+    //the lattice to tile
   ctx.translate(160,93);
   ctx.rotate(3*Math.PI/3);
 //ctx.scale(-1,1);
@@ -2664,61 +2495,37 @@ ctx.translate(160,160);
         //iso b
      ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
   ctx.rotate(0*Math.PI/3);
-  // ctx.scale(-1, 1);
+  ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
-    
-    
+
     //set 3
-     ctx.translate(160+4*(93/2)*Math.sqrt(3),93-0*(93/2));
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
-      
+
   //set 4
-     ctx.translate(160+4*(93/2)*Math.sqrt(3),93-0*(93/2));
-  ctx.rotate(0*Math.PI/3);
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
+  ctx.rotate(3*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
     
   //set 5
-     ctx.translate(160+0*(93/2)*Math.sqrt(3),93+4*(93/2));
-  ctx.rotate(0*Math.PI/3);
-  // ctx.scale(-1, 1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-  
-     //set 6
      ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
-       
-  ctx.translate(160,93);
+    
+   //the lattice to tile 2nd 
+  ctx.translate(160+8*(93/2)*Math.sqrt(3),93-0*(93/2));
   ctx.rotate(3*Math.PI/3);
 //ctx.scale(-1,1);
   ctx.translate(-160,-93);
@@ -2733,7 +2540,33 @@ ctx.translate(160,160);
   ctx.fill();
     // itri_pgg.grid();
     
-  //set 7
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
+  ctx.rotate(3*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+  //set 5
      ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
@@ -2741,9 +2574,10 @@ ctx.translate(160,160);
   itri_pgg.shape();
   ctx.fill();
         
-  ctx.translate(160,93);
+    //the lattice to tile 3rd 
+  ctx.translate(160+2*(93/2)*Math.sqrt(3),93-2*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
+ctx.scale(-1,1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
@@ -2756,63 +2590,45 @@ ctx.translate(160,160);
   ctx.fill();
     // itri_pgg.grid();
     
-  //set 8
-     ctx.translate(160+6*(93/2)*Math.sqrt(3),93-2*(93/2));
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
-        
-  ctx.translate(160,93);
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-  //set 9
-     ctx.translate(160+0*(93/2)*Math.sqrt(3),93+4*(93/2));
-  ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill();  
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
   ctx.fill();
     
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-   //set 10
+  //set 5
      ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill();  
-        
-  ctx.translate(160,93);
+  ctx.fill();
+    
+    
+    //the lattice to tile 4th 
+  ctx.translate(160+8*(93/2)*Math.sqrt(3),93-4*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
+// ctx.scale(-1,1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
@@ -2825,109 +2641,44 @@ ctx.translate(160,160);
   ctx.fill();
     // itri_pgg.grid();
     
-   //set 11
-     ctx.translate(160-2*(93/2)*Math.sqrt(3),93+2*(93/2));
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill();  
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
   ctx.fill();
-    
-      ctx.translate(160,93);
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-    //set 12
-     ctx.translate(160+4*(93/2)*Math.sqrt(3),93+0*(93/2));
-  ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill();  
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
   ctx.fill();
     
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-  //set 13
-     ctx.translate(160+4*(93/2)*Math.sqrt(3),93+0*(93/2));
-  ctx.rotate(0*Math.PI/3);
-  // ctx.scale(-1, 1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();   
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-   //set 14
-     ctx.translate(160-2*(93/2)*Math.sqrt(3),93+2*(93/2));
-  ctx.rotate(0*Math.PI/3);
-  // ctx.scale(-1, 1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill(); 
-     
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-  //set 15
+  //set 5
      ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill(); 
-      
-  ctx.translate(160,93);
+  ctx.fill();
+    
+    //the lattice to tile 5th 
+  ctx.translate(160-4*(93/2)*Math.sqrt(3),93+4*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
+// ctx.scale(-1,1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
@@ -2940,109 +2691,44 @@ ctx.translate(160,160);
   ctx.fill();
     // itri_pgg.grid();
     
-    //set 16
-     ctx.translate(160-2*(93/2)*Math.sqrt(3),93+2*(93/2));
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill(); 
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
   ctx.fill();
-    
-      ctx.translate(160,93);
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-    //set 17
-     ctx.translate(160+4*(93/2)*Math.sqrt(3),93+0*(93/2));
-  ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill();   
-      
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
   ctx.fill();
     
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-    //set 18
-     ctx.translate(160+4*(93/2)*Math.sqrt(3),93+0*(93/2));
-  ctx.rotate(0*Math.PI/3);
-  // ctx.scale(-1, 1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill(); 
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-    //set 19
-     ctx.translate(160-2*(93/2)*Math.sqrt(3),93+2*(93/2));
-  ctx.rotate(0*Math.PI/3);
-  // ctx.scale(-1, 1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill(); 
-        
-  ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    
-      ctx.translate(160,93);
-  ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
-  ctx.translate(-160,-93);
-  itri_pgg.shape();
-  ctx.fill();
-    // itri_pgg.grid();
-    
-  //set 20
+  //set 5
      ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
   ctx.rotate(0*Math.PI/3);
   // ctx.scale(-1, 1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
-  ctx.fill(); 
-        
-  ctx.translate(160,93);
+  ctx.fill();
+    
+//the lattice to tile 6th 
+  ctx.translate(160+2*(93/2)*Math.sqrt(3),93-2*(93/2));
   ctx.rotate(3*Math.PI/3);
-//ctx.scale(-1,1);
+ctx.scale(-1,1);
   ctx.translate(-160,-93);
   itri_pgg.shape();
   ctx.fill();
@@ -3054,9 +2740,144 @@ ctx.translate(160,160);
   itri_pgg.shape();
   ctx.fill();
     // itri_pgg.grid();
+    
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
+  ctx.rotate(3*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+  //set 5
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+//the lattice to tile 7th 
+  ctx.translate(160-4*(93/2)*Math.sqrt(3),93+4*(93/2));
+  ctx.rotate(3*Math.PI/3);
+// ctx.scale(-1,1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+      ctx.translate(160,93);
+  ctx.rotate(3*Math.PI/3);
+//ctx.scale(-1,1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    // itri_pgg.grid();
+    
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
+  ctx.rotate(3*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+  //set 5
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+//the lattice to tile 8th 
+  ctx.translate(160+2*(93/2)*Math.sqrt(3),93+6*(93/2));
+  ctx.rotate(3*Math.PI/3);
+ctx.scale(-1,1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+      ctx.translate(160,93);
+  ctx.rotate(3*Math.PI/3);
+//ctx.scale(-1,1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    // itri_pgg.grid();
+    
+     //160+0*(93/2* Math.sqrt(3)),0+1*(93/2)
+    
+        //iso b
+     ctx.translate(160-2*(93/2)*Math.sqrt(3),93-2*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+    //set 3
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93-0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
+  //set 4
+     ctx.translate(160-0*(93/2)*Math.sqrt(3),93+4*(93/2));
+  ctx.rotate(3*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+    
+  //set 5
+     ctx.translate(160-4*(93/2)*Math.sqrt(3),93+0*(93/2));
+  ctx.rotate(0*Math.PI/3);
+  // ctx.scale(-1, 1);
+  ctx.translate(-160,-93);
+  itri_pgg.shape();
+  ctx.fill();
+
   }
 }
-
+//PATTERN TYPE P3//
   if(symm==4){
   var img = new Image();
   img.src = '1x1 2000 pts.png';
@@ -3568,6 +3389,7 @@ ctx.translate(160,160);
   }
 }
 
+//PATTERN TYPE P3M1//
   if(symm==5){
      var img = new Image();
   img.src = '1x1 2000 pts.png';
@@ -3964,7 +3786,7 @@ ctx.translate(160,160);
     
   }
 }
-  
+  //PATTERN TYPE P31M//
   if(symm==6){
      var img = new Image();
   img.src = '1x1 2000 pts.png';
@@ -4571,7 +4393,8 @@ ctx.translate(160,160);
     // itri_p31m.grid()
  }
   }
-
+	
+  //PATTERN TYPE P6//
   if(symm==7){
      var img = new Image();
   img.src = '1x1 2000 pts.png';
@@ -5155,7 +4978,8 @@ ctx.translate(160,160);
     //no need to complete this triangle part. since it is off screen
   }
   }
-  
+	
+  //PATTERN P6M//
 if(symm==8){
    var img = new Image();
   img.src = '1x1 2000 pts.png';
